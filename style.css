@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,4 +13,44 @@ a{
 }
 li{
     list-style: none;
+}
+body{
+    position: relative;
+    height: 100%;
+    font-family: 'Lato',sans-serif;
+    font-size: 14px;
+    color: #eee;
+    background: #000;
+    overflow: hidden;
+}
+/* Header */
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 7px 40px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li a{
+    color: #eee;
+    text-transform: capitalize;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+}
+nav i{
+    font-size: 16px;
+}
+a:hover{
+    color: var(--primary);
+}
+.logo h2{
+    line-height: 35px;
 }
