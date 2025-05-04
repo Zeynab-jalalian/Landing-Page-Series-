@@ -5,16 +5,16 @@ let thumbsSwiper = new Swiper('.thumbsSwiper', {
   slidesPerView: 5,
   breakpoints: {
     200: {
-      slidePreView: 1.5
+      slidesPerView: 1.5
     },
     400: {
-      slidePreView: 1.5
+      slidesPerView: 1.5
     },
     600: {
-      slidePreView: 3
+      slidesPerView: 3
     },
     1100: {
-      slidePreView: 5
+      slidesPerView: 5
     },
   },
   freeMode: true,
