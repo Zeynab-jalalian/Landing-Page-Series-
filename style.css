@@ -256,3 +256,29 @@ button>* {
     color: var(--primary);
     border-color: var(--primary);
 }
+/* Thumbs */
+.thumbsSwiper{
+    box-sizing: border-box;
+    padding: 10px 0;
+    max-width: 90%;
+    overflow-y: unset !important;
+}
+.thumbsSwiper .swiper-slide{
+    width: 25%;
+    height: 100%;
+    opacity: 1;
+    cursor: pointer;
+    padding: 0 10px;
+    background: transparent;
+    border-radius: 20px;
+}
+.thumbsSwiper .swiper-slide{
+ border-radius: 15px;
+ transition: 0.7s;
+}
+.thumbsSwiper .swiper-slide img{
+    border-radius: 15px;
+}
+.thumbsSwiper .swiper-slide:hover{
+    transform: translateY(-26%);
+}
