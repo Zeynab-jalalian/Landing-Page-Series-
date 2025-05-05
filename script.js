@@ -4,37 +4,37 @@ let titles={
     title:"Breaking Bad",
     subTitle:" Crime Drama",
     desc:"A high school chemistry teacher dying of cancer teams with a former student to secure his family's future by manufacturing and selling crystal ...",
-    videoURL:""
+    videoURL:"videos/1.mp4"
   },
   1:{
     title:"The Walking Dead",
     subTitle:"Post-apocalyptic Horror Drama",
     desc:"Sheriff Deputy Rick Grimes wakes up from a coma to learn the world is in ruins and must lead a group of survivors to stay alive.Sheriff Deputy Rick Grimes ...",
-    videoURL:""
+     videoURL:"videos/2.mp4"
   },
   2:{
     title:"Game of Thrones",
     subTitle:"Fantasy Drama",
     desc:"It's the depiction of two powerful families -- kings and queens, knights and renegades, liars and honest men -- playing a deadly game for control of the Seven ...",
-    videoURL:""
+    videoURL:"videos/3.mp4"
   },
   3:{
     title:"The Punisher",
     subTitle:"َAction",
     desc:"Frank Castle was an honest ex-Marine with a family he loved. But when that family was murdered, he became a vigilante with a uniquely brutal brand of justice...",
-    videoURL:""
+ videoURL:"videos/4.mp4"
   },
   4:{
     title:"Squid Game",
     subTitle:"Thriller, Horror",
     desc:"It revolves around a secret contest where 456 players, all of whom are in deep financial hardship, risk their lives to play a series of deadly children's games ...",
-    videoURL:""
+ videoURL:"videos/5.mp4"
   },
   5:{
     title:"Anne with an E",
     subTitle:"Drama",
     desc:"The adventures of a young orphan girl living in the late 19th century. Follow Anne as she learns to navigate her new life on Prince Edward Island, in this new ...",
-    videoURL:""
+ videoURL:"videos/6.mp4"
   },
 }
 
