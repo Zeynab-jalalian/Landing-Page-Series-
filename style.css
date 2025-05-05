@@ -433,6 +433,9 @@ font-size: 44px;
 .thumbsSwiper .swiper-slide:hover{
  transform: translateY(-16%);
 }
+.btn-primary {
+    margin-bottom: 20px;
+}
 }
 @media only screen and (max-width:400px){
  .header{
