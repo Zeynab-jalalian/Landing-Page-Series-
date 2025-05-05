@@ -425,8 +425,8 @@ video{
 font-size: 44px;
 }
 #desc p{
-    margin: 20px 0;
-    white-space: nowrap;
+    max-height: 200px;
+    margin: 10px 0;
 }
 .ratings{
     margin: 13px 0;
