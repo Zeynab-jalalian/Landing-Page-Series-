@@ -42,3 +42,14 @@ const swiper = new Swiper('.bannerSwiper', {
   }
 
 });
+
+
+//Show overlay
+let overlay=document.querySelector(".overlay");
+let showTrailer=()=>{
+  overlay.classList.add("show");
+}
+// close overlay
+let closeOverlay=()=>{
+  overlay.classList.remove("show");
+}
