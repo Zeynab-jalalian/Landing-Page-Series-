@@ -419,7 +419,7 @@ video{
     align-items: flex-start;
 }
 .swiper-pagination{
-    bottom: 15px !important;
+    bottom: 36px !important;
 }
 #title h1{
 font-size: 44px;
@@ -433,10 +433,14 @@ font-size: 44px;
 .thumbsSwiper .swiper-slide:hover{
  transform: translateY(-16%);
 }
+.btn-primary{
+    display: none;
+}
 }
 @media only screen and (max-width:400px){
  .header{
     flex-wrap: wrap;
     padding: 7px 20px;
+    margin-bottom: 20px;
  }
 }
