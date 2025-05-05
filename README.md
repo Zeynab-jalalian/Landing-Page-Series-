@@ -6,5 +6,5 @@
  - ![CSS](https://img.shields.io/badge/Css-blue)
    
    ---
- you can see my project in [this demo](https://zeynab-jalalian.github.io/Landing-Page-Series/)
+ you can see my project in [this demo](https://zeynab-jalalian.github.io/Landing-Page-Series-/)
   ___
