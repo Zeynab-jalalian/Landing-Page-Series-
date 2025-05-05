@@ -261,7 +261,7 @@ button>* {
     box-sizing: border-box;
     padding: 10px 0;
     max-width: 90%;
-    
+    overflow-y: unset !important;
 }
 .thumbsSwiper .swiper-slide{
     width: 25%;
