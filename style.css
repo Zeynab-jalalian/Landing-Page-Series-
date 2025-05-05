@@ -7,8 +7,8 @@
 }
 
 :root {
-    --primary: #aa259b;
-    --secondary: #eb7579;
+    --primary: #54c5d4;
+    --secondary: #759eeb;
 }
 
 a {
@@ -197,7 +197,7 @@ a:hover {
 }
 
 .swiper-pagination-bullet {
-    background: #eee !important;
+    background: var(--primary) !important;
     width: 50px !important;
     place-content: 0.6;
     height: 3px !important;
@@ -286,7 +286,7 @@ button>* {
     border-radius: 15px;
 }
 .thumbsSwiper .swiper-slide:hover{
-    transform: translateY(-26%);
+    transform: translateY(-25%);
 }
 /* Overlay */
 .overlay{
@@ -320,8 +320,8 @@ button>* {
 .overlay i:hover{
     opacity: 1;
     color: var(--primary);
-    rotate: 180deg;
-    scale: 1.4;
+    rotate: 360deg;
+    scale: 1.5;
 }
 video{
     border-radius: 20px;
@@ -331,22 +331,22 @@ video{
 }
 /* Add animations  for thumbs*/
 .thumbs .swiper-wrapper .swiper-slide:nth-child(1){
-    animation: slideLeft 0.5s ease-in-out;
+    animation: slideThumb 0.5s ease-in-out;
 }
 .thumbs .swiper-wrapper .swiper-slide:nth-child(2){
-    animation: slideLeft 0.5s ease-in-out;
+    animation: slideThumb 0.5s ease-in-out;
     animation-delay: -0.7s;
 }
 .thumbs .swiper-wrapper .swiper-slide:nth-child(3){
-    animation: slideLeft 0.5s ease-in-out;
+    animation: slideThumb 0.5s ease-in-out;
     animation-delay: -0.5s;
 }
 .thumbs .swiper-wrapper .swiper-slide:nth-child(4){
-    animation: slideLeft 0.5s ease-in-out;
+    animation: slideThumb 0.5s ease-in-out;
     animation-delay: -0.3s;
 }
 .thumbs .swiper-wrapper .swiper-slide:nth-child(5){
-    animation: slideLeft 0.5s ease-in-out;
+    animation: slideThumb 0.5s ease-in-out;
     animation-delay: -0.1s;
 }
 /* Animations */
@@ -359,7 +359,7 @@ video{
 @keyframes slideLeft{
     0%{
      opacity: 0;
-     transform: translateX(300%);
+     transform: translateX(45px);
     }
     100%{
         opacity: 1;
@@ -369,7 +369,7 @@ video{
 @keyframes slideRight{
     0%{
      opacity: 0;
-     transform: translateX(-130px);
+     transform: translateX(-45px);
     }
     100%{
         opacity: 1;
@@ -379,7 +379,7 @@ video{
 @keyframes slideUP{
     0%{
         opacity: 0;
-        transform: translateY(200%);
+        transform: translateY(-100%);
     }
     100%{
         opacity: 1;
@@ -388,8 +388,19 @@ video{
 }
 @keyframes banner{
     0%{
-        transform: skew(30deg,40deg) scale(55);
+      transform: scale(100)
+      skewX(120deg);
     }
+}
+@keyframes slideThumb{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+       }
+       100%{
+           opacity: 1;
+           transform: translateX(0);
+       }
 }
 /* Responsive */
 @media only screen and (max-width:720px){
@@ -403,7 +414,7 @@ video{
     align-items: flex-start;
 }
 .swiper-pagination{
-    bottom: 50px !important;
+    bottom: 15px !important;
 }
 #title h1{
 font-size: 44px;
