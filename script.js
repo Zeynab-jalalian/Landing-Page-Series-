@@ -22,7 +22,7 @@ let titles = {
     title: "The Punisher",
     subTitle: "َAction",
     desc: "Frank Castle was an honest ex-Marine with a family he loved. But when that family was murdered, he became a vigilante with a uniquely brutal brand of justice...",
-    videoURL: "videos/4.mp4"
+  videoURL: "videos/4.mp4"
   },
   4: {
     title: "Squid Game",
@@ -103,10 +103,18 @@ swiper.on('activeIndexChange', function () {
 })
 //Show overlay
 let overlay = document.querySelector(".overlay");
+let videoContainer=document.querySelector(".trailer")
 let showTrailer = () => {
+  let index=swiper.activeIndex;
+  videoContainer.innerHTML=`
+  <video controls autoplay id="video">
+  <source src="${titles[index].videoURL}" type="video/mp4"></video>
+  `
   overlay.classList.add("show");
 }
 // close overlay
 let closeOverlay = () => {
+  let video=document.querySelector("#video");
+  video.pause();
   overlay.classList.remove("show");
 }
