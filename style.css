@@ -236,7 +236,6 @@ button {
     transition: all 0.3s;
     animation: slideUP 0.6s;
 }
-
 button>* {
     margin-right: 10px;
 }
@@ -248,19 +247,20 @@ button>* {
 }
 .btn-primary:hover{
     scale: 1.1;
-    border: 2px solid var(--primary);
-    color: var(--primary);
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
     background: none;
 }
 .btn-sec{
-    border: 2px solid #eee;
+    color: var(--primary);
+    border: 2px solid var(--primary);
     padding: 10px 20px;
     margin-right: 10px;
 }
 .btn-sec:hover{
     background: rgba(0,0,0,0.534);
-    color: var(--primary);
-    border-color: var(--primary);
+    color: var(--secondary);
+    border-color: var(--secondary);
 }
 /* Thumbs */
 .thumbsSwiper{
@@ -284,9 +284,13 @@ button>* {
 }
 .thumbsSwiper .swiper-slide img{
     border-radius: 15px;
+    opacity: 0.8;
 }
 .thumbsSwiper .swiper-slide:hover{
-    transform: translateY(-25%);
+    transform: translateY(-5%);
+}
+.thumbsSwiper .swiper-slide:hover img{
+    opacity: 1;
 }
 /* Overlay */
 .overlay{
