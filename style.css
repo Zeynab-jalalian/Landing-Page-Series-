@@ -424,7 +424,7 @@ video{
 #title h1{
 font-size: 44px;
 }
-.desc p{
+#desc p{
     margin: 20px 0;
 }
 .ratings{
