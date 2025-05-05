@@ -426,6 +426,7 @@ font-size: 44px;
 }
 #desc p{
     margin: 20px 0;
+    white-space: nowrap;
 }
 .ratings{
     margin: 13px 0;
